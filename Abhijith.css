@@ -1,0 +1,150 @@
+html {
+  background: url(banner.jpg) no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: monospace;
+}
+body, input, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#admin{
+    color:white;
+    font-size:30px;
+    font-weight:100;
+    
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .login {
+    margin-top: 1%;
+    width: 550px;
+    font-size: 1.7em;
+    min-height: 0;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .login {
+    margin-top: 0;
+    width: 500px;
+    font-size: 1.3em;
+    min-height: 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .login {
+    margin-top: 0;
+    width: 400px;
+    font-size: 1em;
+    min-height: 0;
+  }
+  .login h2 {
+    margin-top: 0;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .login {
+    margin-top: 0;
+    width: 200px;
+    font-size: 0.7em;
+    min-height: 0;
+  }
+}
+
+
+.inptext {
+    border: none;
+    color: white;
+    width: 700px;
+    height: 35px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.inptext1 {
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+/***************************/
+
+/****************/
+.copy-right {
+	margin-top: 0;
+    margin-left: 40px;
+}
+.copy-right p {
+	color: #343434;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 600;
+    
+    width: 300px;
+    
+     
+}
+.copy-right p a {
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 1em;
+	color:white;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right p a:hover {
+	color:#1DB198;
+}
+
+
+.button {
+    
+    border: none;
+    border-radius: 30px;
+    color: white;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#example1 {
+    content: url(https://3.bp.blogspot.com/-Nmx4S_hD3YY/V1hY2SBumJI/AAAAAAAAAKM/de0CJNutwlER00OFeVoHQL9W5IatY_0fQCLcB/s320/Sumit%2BBot.png);
+   
+}
+.example1 {
+    content: url(https://3.bp.blogspot.com/-Nmx4S_hD3YY/V1hY2SBumJI/AAAAAAAAAKM/de0CJNutwlER00OFeVoHQL9W5IatY_0fQCLcB/s320/Sumit%2BBot.png);
+   
+}
+.button5 {
+    background-color: #18a689;
+    color: white;
+    border: 1px solid #b066ff;
+}
+
+.button5:hover {
+    background-color: #b066ff;
+    color: #fff;
+    border: 1px solid #319db5;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important;} /* End http://www.cursors-4u.com */
